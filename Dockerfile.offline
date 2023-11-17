@@ -1,0 +1,32 @@
+FROM node:lts-alpine AS builder
+
+WORKDIR /app
+
+COPY package.json ./
+
+RUN wget --help
+
+RUN wget http://192.168.1.116:8168/npm-cache.tar.gz
+
+RUN tar -xzvf npm-cache.tar.gz -C ./
+
+RUN npm config set cache ./npm-cache
+
+RUN npm ci --offline -verbose 
+
+COPY . .
+
+RUN npm run build
+
+FROM node:lts-alpine
+
+WORKDIR /app
+
+COPY --from=builder /app/.output .
+
+EXPOSE 3000
+
+ENV NUXT_HOST=0.0.0.0
+ENV NUXT_PORT=3000
+
+CMD ["node", "server/index.mjs"]

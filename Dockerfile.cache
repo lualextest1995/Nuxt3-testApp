@@ -1,0 +1,20 @@
+FROM node:lts-alpine AS builder
+
+WORKDIR /app
+
+COPY package.json ./
+
+RUN npm install -verbose --online --cache=./npm-cache
+
+RUN tar -czvf npm-cache.tar.gz ./npm-cache package-lock.json
+
+FROM nginx:alpine
+
+WORKDIR /app
+
+COPY --from=builder /app/npm-cache.tar.gz /usr/share/nginx/html
+
+
+
+
+
