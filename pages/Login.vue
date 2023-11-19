@@ -1,7 +1,7 @@
 <template>
   <div class="loginForm">
     <div class="logo">
-      <img src="../assets/logo.png" alt="" />
+      <img src="../assets/logo.webp" alt="" />
     </div>
     <h1 class="title">{{ currentTitle }}</h1>
     <!--登入-->

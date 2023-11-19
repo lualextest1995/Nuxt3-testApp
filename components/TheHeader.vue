@@ -2,7 +2,7 @@
   <el-row justify="center" align="middle">
     <el-col :span="12">
       <div class="logo" @click="navigateTo('/')">
-        <img src="../assets/logo1.png" alt="" />
+        <img src="../assets/logo1.webp" alt="" />
       </div>
       <I18n class="i18n" />
     </el-col>
@@ -10,7 +10,7 @@
       <el-dropdown trigger="click">
         <div class="container">
           <div class="userlogo">
-            <img src="../assets/userLogo.png" alt="" />
+            <img src="../assets/userLogo.webp" alt="" />
           </div>
           <p class="username">{{ userStore.currentUserInfo?.name }}</p>
         </div>

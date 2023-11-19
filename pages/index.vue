@@ -27,21 +27,21 @@ const datas = ref([
   {
     id: 'beerApp',
     title: toRef(() => t('BeerQuerySystem')),
-    src: getAssetURL('beerApp.png'),
+    src: getAssetURL('beerApp.webp'),
     hasFavorited: false,
     path: 'beerApp'
   },
   {
     id: 'equipmentApp',
     title: toRef(() => t('EquipmentAnalysisSystem')),
-    src: getAssetURL('equipmentApp.png'),
+    src: getAssetURL('equipmentApp.webp'),
     hasFavorited: false,
     path: 'equipmentApp'
   },
   {
     id: 'userApp',
     title: toRef(() => t('UserAnalysisSystem')),
-    src: getAssetURL('userApp.png'),
+    src: getAssetURL('userApp.webp'),
     hasFavorited: false,
     path: '/'
   }

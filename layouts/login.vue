@@ -12,7 +12,7 @@
 .el-aside {
   height: 100vh;
   width: 70%;
-  background: url(../assets/loginBg.png);
+  background: url(../assets/loginBg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;

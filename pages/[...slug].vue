@@ -1,7 +1,7 @@
 <template>
   <el-card class="box-card">
     <div class="error-img">
-      <img src="../assets/404.jpg" alt="" />
+      <img src="../assets/404.webp" alt="" />
     </div>
     <NuxtLink to="/">回首頁</NuxtLink>
   </el-card>
