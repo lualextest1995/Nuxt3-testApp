@@ -56,7 +56,9 @@ export default defineNuxtConfig({
       style: [],
       script: [],
       noscript: [{ children: 'JS是執行網頁必要的，請不要禁止他！！' }]
-    }
+    },
+    baseURL: '/Nuxt3-testApp/',
+    buildAssetsDir: 'static'
   },
   devServer: {
     port: 3000

@@ -4,6 +4,8 @@
 
 # Demo
 
+[github page](https://lualextest1995.github.io/Nuxt3-testApp/)
+
 # Features
 
 - NUXT3
@@ -24,7 +26,7 @@
 - [Element-plus UI](https://element-plus.org/zh-CN/)
 - [docker](https://www.docker.com/)
 
-更多詳細資訊，請點擊 client 資料夾的 [package.json](https://github.com/lualextest1995/project2/blob/main/client/package.json)
+更多詳細資訊，請點擊 client 資料夾的 [package.json](https://github.com/lualextest1995/Nuxt3-testApp/blob/main/package.json)
 
 # Getting Started
 
@@ -33,13 +35,13 @@
 1. Clone this repositories.
 
 ```
-$ git clone https://github.com/lualextest1995/project2.git
+$ git clone https://github.com/lualextest1995/Nuxt3-testApp.git
 ```
 
 2. Install NPM.
 
 ```
-$ cd project2
+$ cd Nuxt3-testApp
 $ npm install
 ```
 
@@ -60,7 +62,7 @@ http://localhost:3000/
 1. Clone this repositories.
 
 ```
-$ git clone https://github.com/lualextest1995/project2.git
+$ git clone https://github.com/lualextest1995/Nuxt3-testApp.git
 ```
 
 2. Install NPM.
